@@ -1,0 +1,53 @@
+body{
+  margin: 0px;
+  height: 100vh;
+}
+@keyframes move-right {
+  from {transform: translateY(0px);}
+  to{ transform: translateY(100vh)}
+}
+.move-right{
+  animation-name: move-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode:forwards;
+}
+@keyframes move-top {
+  from{ transform: translateY(0px);}
+  to{ transform: translateY(-50px);}
+}
+.move-top{
+  animation-name: move-top;
+  animation-duration: 0.2s;
+  animation-timing-function: ease;
+  animation-fill-mode:forwards;
+}
+@keyframes column-move {
+  from{ transform: translateX(0px);}
+  to{ transform: translateX(-110vw);}
+}
+.column-move{
+  animation-name: column-move;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bird_wrapper{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+#grade_wrapper{
+  position: absolute;
+  left: 85%;
+  z-index: 20;
+  font-size: 25px;
+  font-weight: 400;
+  color: gray;
+  top: 15%;
+}
+#grade{
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
