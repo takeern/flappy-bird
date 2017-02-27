@@ -1,5 +1,7 @@
 ﻿# flappy-bird
 笨鸟先飞
+# 效果
+![](https://github.com/takeern/flappy-bird/blob/master/bird/flybird.png)
 # 技术栈
  网上很多使用js构建的bird，经过比较，css3动画相对js来说：
   1. css3可以很便捷的实现一些动画效果，相对js它使用极少的代码构建。<br>
