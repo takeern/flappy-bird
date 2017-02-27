@@ -19,7 +19,7 @@
      d.   为了获取当前element的位置getBoundingClientRect（）获取该元素位置，然后给替换他的element，top会小8px，left会大3px;(搞不明白！！！(找到原因 body的marg为8px))<br>
   2. 每次构建柱子产生的监视器，使用一个队列保存监视器ID，柱子离开即时删除监视器。<br>
   3. bird保存在bigbird模块中，防止引入污染。<br>
-  4. 为何不用cloneNODE方法获取节点，clone方式不是即时的，他调用的类似style是节点开始时的，运动后的style没有保存，所以需要即时复制DOM。<br>
+  4. 为何不用cloneNODE方法获取节点，clone方式不是即时的，他调用的类似style是节点开始时的，运动后的style没有保存，所以需要即时复制DOM。
 # 例子
 ```JavaScript
 var bird=require('bird');
